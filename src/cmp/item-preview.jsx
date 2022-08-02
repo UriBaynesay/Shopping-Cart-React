@@ -1,4 +1,4 @@
-export const ItemPreview = ({ item, onAddToCart }) => {
+export const ItemPreview = ({ item }) => {
   return (
     <article className="item-preview-container">
       <div className="img-container">
@@ -6,7 +6,6 @@ export const ItemPreview = ({ item, onAddToCart }) => {
       </div>
       <h4>{item.ProductTitle}</h4>
       <pre>{item.PriceLabel}</pre>
-      <button className="btn add-to-cart" onClick={()=>onAddToCart(item)}>Add to cart</button>
     </article>
   )
 }

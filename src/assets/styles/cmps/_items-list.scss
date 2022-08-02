@@ -1,0 +1,10 @@
+.items-list {
+  li {
+    position: relative;
+    .add-to-cart {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+    }
+  }
+}
