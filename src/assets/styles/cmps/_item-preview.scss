@@ -1,12 +1,6 @@
 .item-preview-container {
-    height: 100%;
-    position: relative;
-    .img-container{
-        height: 80%;
-    }
-    .add-to-cart{
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-    }
+  height: 100%;
+  .img-container {
+    height: 80%;
+  }
 }
