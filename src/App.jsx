@@ -1,13 +1,14 @@
-import "./assets/styles/main.scss"
-
 import { Routes, Route } from "react-router"
 
+import "./assets/styles/main.scss"
 import routes from "./routes"
+import { AppHeader } from "./cmp/app-header"
+import { AppFooter } from "./cmp/app-footer"
 
 function App() {
   return (
     <div className="App">
-      {/* <AppHeader /> */}
+      <AppHeader />
       <main>
         <Routes>
           {routes.map((route) => (
@@ -20,7 +21,7 @@ function App() {
           ))}
         </Routes>
       </main>
-      {/* <AppFooter /> */}
+      <AppFooter />
     </div>
   )
 }
