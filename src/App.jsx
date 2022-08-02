@@ -7,9 +7,9 @@ import { AppFooter } from "./cmp/app-footer"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <AppHeader />
-      <main>
+      <main className="main-container">
         <Routes>
           {routes.map((route) => (
             <Route
